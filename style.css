@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    min-width: 1200px;
+
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 119.62%;
+
+    color: #636363;
+
+    background-image: url("img/bg1.png"), url("img/bg2.png"), url("img/bg3.png");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: right top;
+    background-size: auto;
+}
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.navigation-city,
+.site-navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navigation-city {
+    width: 350px;
+    justify-content: flex-start;
+}
+
+.navigation-city-item {
+    text-transform: uppercase;
+    margin-right: 25px;
+}
+
+.navigation-city-item:last-child {
+    margin-right: 0;
+}
+
+.site-navigation {
+    width: 642px;
+    justify-content: space-around;
+}
+
+.city-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #2F80ED;
+
+}
+.site-navigation-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a.site-navigation-link:hover,
+a.site-navigation-link:focus,
+a.site-navigation-link:active {
+    font-weight: 700;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    padding: 14px 25px;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    color: #2F80ED;
+    border: none;
+}
+
+a.button:hover,
+a.button:focus,
+a.button:active {
+    font-weight: 700;
+}
