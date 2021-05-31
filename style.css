@@ -1,203 +1,302 @@
+/* * {
+  box-sizing: border-box;
+} */
+
 body {
-    margin: 0;
-    min-width: 1200px;
+  margin: 0;
+  min-width: 1200px;
 
-    font-family: "Montserrat", Arial, sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 119.62%;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 119.62%;
+  color: #636363;
 
-    color: #636363;
-
-    background-image: url("img/bg1.png"), url("img/bg2.png"), url("img/bg3.png");
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: right top;
-    background-size: auto;
+  /* background-color: #2F80ED; */
+  background-image: url("img/bg1.png"), url("img/bg2.png"), url("img/bg3.png");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: right top;
+  background-size: auto;
 }
 
-h1, h2, h3, p {
-    margin: 0;
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
 }
 
 .container {
-    width: 1180px;
-    margin: 0 auto;
-    padding-left: 10px;
-    padding-right: 10px;
+  width: 1180px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .visually-hidden {
-    position: absolute;
-    clip: rect(1px, 1px, 1px, 1px);
-    padding: 0;
-    border: 0;
-    height: 1px;
-    width: 1px;
-    overflow: hidden;
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
   }
 
 .main-navigation {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
 }
 
 .navigation-city,
 .site-navigation {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .navigation-city {
-    width: 325px;
-    justify-content: space-between;
-    margin-right: 158px;
+  width: 325px;
+  justify-content: space-between;
+  margin-right: 158px;
 }
 
 .navigation-city-item {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .site-navigation {
-    width: 475px;
-    justify-content: space-between;
-    margin-right: 70px;
+  width: 475px;
+  justify-content: space-between;
+  margin-right: 70px;
 }
 
 .city-link {
-    display: inline-block;
-    text-decoration: none;
-    color: #2F80ED;
+  display: inline-block;
+  text-decoration: none;
+  color: #2F80ED;
 
 }
 .site-navigation-link {
-    display: inline-block;
-    text-decoration: none;
-    color: #FFFFFF;
+  display: inline-block;
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 a.site-navigation-link:hover,
 a.site-navigation-link:focus,
 a.site-navigation-link:active {
-    text-shadow: 0 0 1px #FFFFFF, 0 0 1px #FFFFFF, 0 0 1px #FFFFFF;
+  text-shadow: 0 0 1px #FFFFFF, 0 0 1px #FFFFFF, 0 0 1px #FFFFFF;
 }
 
 a.city-link:hover,
 a.city-link:focus,
 a.city-link:active {
-    font-weight: 700;
+  font-weight: 700;
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  border-radius: 50px;
 }
 
 .main-navigation .button {
-    display: inline-block;
-    text-align: center;
-    margin: 0;
-    padding: 14px 0;
-    text-decoration: none;
-    background-color: #FFFFFF;
-    border-radius: 50px;
-    color: #2F80ED;
-    border: none;
-    width: 160px;
+  width: 160px;
+  padding: 14px 0;
+  background-color: #FFFFFF;
+  color: #2F80ED;
 }
 
 a.button:hover,
 a.button:focus,
 a.button:active {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .promo {
-    display: flex;
+  display: flex;
+  margin-bottom: 175px ;
 }
 
 .promo-rating-column {
-    width: 565px;
-    margin-right: 35px;
+  width: 565px;
+  margin-right: 35px;
 }
 
 .promo-text-column {
-    width: 550px;
-    margin-top: 87px;
-    margin-left: 2px;
-    color: #FFFFFF;
+  width: 550px;
+  margin-top: 87px;
+  margin-left: 2px;
+  color: #FFFFFF;
 }
 
 .rating {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    margin-top: 360px;
-    margin-left: 55px;
-    padding: 40px;
-    border-radius: 50%;
-    background: radial-gradient(68.31% 68.31% at 50% 50%, #F9FBFF 0%, #CADEF9 100%), #FFFFFF;
-    box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  margin-top: 360px;
+  margin-left: 55px;
+  padding: 40px;
+  border-radius: 50%;
+  background: radial-gradient(68.31% 68.31% at 50% 50%, #F9FBFF 0%, #CADEF9 100%), #FFFFFF;
+  box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
 }
 
 .rating-text {
-    line-height: 153.12%;
-    color: #2F80ED;
-    text-align: center;
-    margin: 5px 0;
+  line-height: 153.12%;
+  color: #2F80ED;
+  text-align: center;
+  margin: 5px 0;
 }
 
 .rating-text-highlighted {
-    font-weight: bold;
-    font-size: 34px;
-    line-height: 153.12%;
-    color: #2F80ED;
-    margin: 5px 0;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 153.12%;
+  color: #2F80ED;
+  margin: 5px 0;
 }
 
 .rating-link {
-    display: inline-block;
-    text-decoration: none;
-    font-size: 10px;
-    line-height: 20px;
-    color: #2F80ED;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 10px;
+  line-height: 20px;
+  color: #2F80ED;
 }
 
 .promo-text-place {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 124.41%;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 124.41%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 .promo-text-title {
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 124.41%;
-    padding: 20px 0;  
+  margin: 0;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 124.41%;
+  padding: 20px 0;
 }
 
 .promo-text-small {
-    font-size: 18px;
-    line-height: 124.41%;
-    padding-bottom: 45px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 124.41%;
+  padding-bottom: 45px;
 }
 
 .promo-text-column .button {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 700;
-    display: inline-block;
-    width: 192px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-    background-color: #64E2CD;
-    border-radius: 50px;;
-    color: #FFFFFF;
-    box-shadow: 0 0 0 15px rgba(100, 226, 205, 0.5);
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 192px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #64E2CD;
+  color: #FFFFFF;
+  box-shadow: 0 0 0 15px rgba(100, 226, 205, 0.5);
+}
+
+.audience {
+  background-image: url("img/audience-elipse.png"), url("img/audience-rectangle.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top right;
+  background-size: 100%;
+  box-sizing: border-box;
+  padding-top: 92px;
+  padding-bottom: 142px;
+  margin-bottom: 170px;
+}
+
+.section-title {
+  margin: 0;
+  font-size: 30px;
+  line-height: 124.41%;
+  color: #000000;
+}
+
+.audience-list {
+  display: flex;
+  justify-content: space-between;
+  width: 825px;
+  padding-top: 97px;
+  margin: 0;
+}
+
+.audience-item {
+  width: 225px;
+}
+
+.audience-item-category {
+  width: 150px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143.55%;
+  letter-spacing: 0.05em;
+  color: #2F80ED;
+}
+
+.audience-item-description {
+  margin: 0;
+  font-size: 14px;
+  line-height: 143.55%;
+}
+
+.course-programme {
+  margin-bottom: 100px;
+}
+
+.programme-list {
+  width: 570px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 45px;
+  margin-bottom: 105px;
+}
+
+.programme-item {
+  width: 240px;
+}
+
+.programme-item-topic {
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143.55%;
+  letter-spacing: 0.05em;
+  color: #2F80ED;
+}
+
+.programme-item-description {
+  margin: 0;
+  font-size: 14px;
+  line-height: 143.55%;
+}
+
+.course-programme a.button {
+  text-transform: uppercase;
+  color: #2F80ED;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143.55%;
+  border: none;
+  border-bottom: 1px dashed #2F80ED;
 }
