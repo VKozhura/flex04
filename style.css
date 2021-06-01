@@ -433,7 +433,7 @@ a.button:active {
 .author-advantages-item:first-child::before {
   content: "";
   position: absolute;
-  width: 61px;
+  width: 60px;
   height: 61px;
   background-image: url("img/Group.svg");
   top: -95px;
@@ -442,7 +442,7 @@ a.button:active {
 .author-advantages-item:nth-child(2)::before {
   content: "";
   position: absolute;
-  width: 61px;
+  width: 60px;
   height: 61px;
   background-image: url("img/Group\ 2.svg");
   top: -95px;
@@ -451,15 +451,15 @@ a.button:active {
 .author-advantages-item:nth-child(3)::before {
   content: "";
   position: absolute;
-  width: 61px;
-  height: 61px;
+  width: 60px;
+  height: 56px;
   background-image: url("img/Group\ 3.svg");
   top: -95px;
 }
 .author-advantages-item:last-child::before {
   content: "";
   position: absolute;
-  width: 61px;
+  width: 59px;
   height: 61px;
   background-image: url("img/Group\ 4.svg");
   top: -95px;
