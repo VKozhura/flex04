@@ -25,6 +25,7 @@ a {
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 .container {
@@ -499,5 +500,119 @@ a.button:active {
 }
 
 .gallery-item {
+  /* margin-right: 25px; */
   margin-bottom: 23px;
+}
+
+.tariffs .section-title {
+  padding-top: 225px;
+  padding-bottom: 75px;
+  text-align: center;
+}
+
+.tariffs-list {
+  padding: 0;
+  padding-bottom: 247px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tariffs-item {
+  list-style: none;
+  box-sizing: border-box;
+  padding: 70px 0;
+  width: 271px;
+  background-color: rgba(47, 128, 237, 0.05);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tariff-price {
+  margin: 0;
+  padding-bottom: 12px;
+  order: -1;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 40px;
+  color: #2F80ED;
+}
+
+.tariff-title {
+  margin: 0;
+  padding-bottom: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 158.47%;
+  color: #2F80ED;
+}
+
+.tariffs a.button {
+  box-sizing: border-box;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 192px;
+  display: inline-block;
+  background: #52D1BC;
+  border-radius: 50px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.main-footer {
+  box-sizing: border-box;
+  padding-top: 41px;
+  padding-bottom: 41px;
+  background-color: #2F80ED;
+}
+
+.footer-wrapper-light {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 45px;
+}
+
+.main-footer a.city-link {
+  color: #FFFFFF;
+}
+
+.main-footer .button {
+  width: 160px;
+  padding: 12px 0;
+  background-color: #FFFFFF;
+  color: #2F80ED;
+}
+
+.footer-wrapper-dark {
+  box-sizing: border-box;
+  padding: 30px 0;
+  background-color: #185FBF;
+}
+
+.footer-info {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-info-item,
+.footer-info-item a {
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+
+.footer-info-item:first-child {
+  margin-right: auto;
+}
+
+.footer-info-item a {
+  display: inline-block;
+  margin-left: 50px;
 }
